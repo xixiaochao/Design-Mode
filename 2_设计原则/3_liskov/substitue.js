@@ -57,3 +57,8 @@ var chen = {
 };
 //chen.marry(new Women('女','范冰冰'));
 chen.marry(new Man('男', '范丞丞'));
+/**
+ * React 虚拟DOM
+ *  React.render(<Hello/>);
+ *  React.render(<h1/>);
+ */ 

@@ -34,7 +34,7 @@ man.buy();
 woman.buy();
 
 let chen = {
-    marry(p:Person){
+    marry(p:Person){ //Person：依赖倒置
         console.log(`李晨和${p.name}Dating`);
         
     }

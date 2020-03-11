@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>单一职责原则</title>
+</head>
+<body>
+    <form id="userform" action="">
+        <input data-validate="checkUserName" type="text" name="username" id="username">
+        <input data-validate="checkEmail" type="text" name="email" id="email">
+        <input data-validate="checkPassword" type="password" name="password" id="password">
+        <button onclick="check()" type="button">提交</button>
+    </form>
+    <script src="single.js"></script>
+</body>
+</html>
